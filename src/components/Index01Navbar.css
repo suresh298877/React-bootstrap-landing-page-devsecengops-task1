@@ -1,0 +1,17 @@
+.navbar {
+    background: rgba(26, 19, 96, 0.5);
+    height: 75px;
+    width: 100vw;
+    /* opacity: 0; */
+
+}
+
+li a {
+    color: rgba(255, 255, 255, 0.5);
+    /* font-weight: 500; */
+}
+
+.container {
+    margin-right: 9%;
+    margin-left: 9%;
+}

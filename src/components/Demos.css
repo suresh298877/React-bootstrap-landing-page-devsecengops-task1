@@ -1,0 +1,22 @@
+.demos {
+    background-color: white;
+    z-index: 1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cnt-fluid {
+    background-color: white;
+}
+
+.demosTitle {
+    font-size: 20.3px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 95px;
+    font-weight: 900;
+}
+
+.col-12:hover {
+    cursor: pointer;
+}

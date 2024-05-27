@@ -1,0 +1,8 @@
+.wrapper {
+    height: 100vh;
+    perspective: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+    scroll-behavior: smooth;
+}
