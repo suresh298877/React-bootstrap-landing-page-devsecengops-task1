@@ -6,19 +6,22 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <Demos />
-      <Features />
-      <div className="container-fluid">
-        <div className="container text-center">
-          <a className="btn btn-primary btn-lg m-5 ts-width__300px" style={{ borderRadius: "50px", width: "240px", height: "60px", backgroundColor: "#f26d7d", border: 0 }}>
-            <h3 style={{ marginTop: "8px" }} className="mb-0">Buy Now</h3>
-          </a>
-        </div>
-      </div>
-      <div className="container-fluid">
-        <div className="container text-center p-4">
-          <small>© 2018 ThemeStarz, All Rights Reserved</small>
+      <div style={{ zIndex: 2 }}>
 
+        <Demos />
+        <Features />
+        <div className="container-fluid">
+          <div className="container text-center">
+            <a className="btn btn-primary btn-lg m-5 ts-width__300px" style={{ borderRadius: "50px", width: "240px", height: "60px", backgroundColor: "#f26d7d", border: 0 }}>
+              <h3 style={{ marginTop: "8px" }} className="mb-0">Buy Now</h3>
+            </a>
+          </div>
+        </div>
+        <div className="container-fluid">
+          <div className="container text-center p-4">
+            <small>© 2018 ThemeStarz, All Rights Reserved</small>
+
+          </div>
         </div>
       </div>
 
