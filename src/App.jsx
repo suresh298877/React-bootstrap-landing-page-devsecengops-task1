@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <div style={{ zIndex: 2 }}>
+      <div style={{ zIndex: 2, position: "relative" }}>
 
         <Demos />
         <Features />

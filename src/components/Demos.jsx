@@ -4,7 +4,7 @@ import "./Demos.css"
 
 const Demos = () => {
     return (
-        <div id="demos" className="cnt-fluid">
+        <div id="demos" className="cnt-fluid" style={{ position: "relative", zIndex: 1 }}>
             <div className="container demos">
                 <h3 className="demosTitle">Demos</h3>
                 <div className="row">

@@ -1,4 +1,3 @@
-import Demos from "./Demos";
 import "./Header.css";
 const Header = () => {
     return (
@@ -27,8 +26,10 @@ const Header = () => {
                 </div>
             </div>
             {/* <Demos /> */}
-            <img src="images/wave-static-02.svg" alt="wave-violet" className="wave-violet" />
-            <img src="images/wave-static-01.svg" alt="wave-white" className="wave-white" />
+            <div>
+                <img src="images/wave-static-02.svg" alt="wave-violet" className="wave-violet" style={{ height: "30vh" }} />
+                <img src="images/wave-static-01.svg" alt="wave-white" className="wave-white" style={{ height: "30vh" }} />
+            </div>
         </div>
     );
 };
